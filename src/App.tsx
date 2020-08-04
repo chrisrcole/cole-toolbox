@@ -1,12 +1,9 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container'
+import { HashRouter as Router } from 'react-router-dom'
 // import { Header } from './Header/Header'
-import { NavigationBar } from './Navigation/Navigation'
+import { NavigationBar, NavigationSwitch } from './Navigation/Navigation'
 import { theme } from './Theme/Theme'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { Home } from './Pages/Home/Home'
-import { Project1 } from './Pages/Project1/Project1'
-import { Project2 } from './Pages/Project2/Project2'
 
 // import ButtonsShowcase from './showcases/Buttons'
 // import ToastsShowcase from './showcases/Toasts'
@@ -14,23 +11,13 @@ import { Project2 } from './Pages/Project2/Project2'
 export function App() {
   return (
     <Container fluid={true}>
-      <Router>
+      <Router basename="/cole-toolbox">
         <header>
           {/* <Header /> */}
           <NavigationBar bg={theme} variant={theme} />
         </header>
         <Container fluid={true}>
-          <Switch>
-            <Route path="/project1">
-              <Project1 />
-            </Route>
-            <Route path="/project2">
-              <Project2 />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
+          <NavigationSwitch />
         </Container>
       </Router>
     </Container>
