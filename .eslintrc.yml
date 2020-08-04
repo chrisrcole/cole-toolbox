@@ -29,14 +29,14 @@ rules:
     - selector: interface
       format:
         - PascalCase
-      custom:
-        regex: '^I[A-Z]'
-        match: true
+      # custom:
+      # regex: '^I[A-Z]'
+      # match: true
   '@typescript-eslint/consistent-type-assertions':
     - error
     - assertionStyle: 'as'
   '@typescript-eslint/no-unused-expressions': error
-  '@typescript-eslint/explicit-member-accessibility': error
+  # '@typescript-eslint/explicit-member-accessibility': error
   '@typescript-eslint/no-unused-vars':
     - error
     - args: 'none'
