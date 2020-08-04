@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a6f545e8d2ef91647f4f235745c9cb3",
+    "revision": "45f61fe6e9d1791c03cabca5cca1342d",
     "url": "/cole-toolbox/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cole-toolbox/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "631b608aad136d074cc1",
+    "revision": "44ebed2231d8f57acaf2",
     "url": "/cole-toolbox/static/css/main.cfebca8d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cole-toolbox/static/js/2.2ed6fcef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "631b608aad136d074cc1",
-    "url": "/cole-toolbox/static/js/main.2392e4f8.chunk.js"
+    "revision": "44ebed2231d8f57acaf2",
+    "url": "/cole-toolbox/static/js/main.8f97af9c.chunk.js"
   },
   {
     "revision": "b78fd70c07f8ac4c80f5",
