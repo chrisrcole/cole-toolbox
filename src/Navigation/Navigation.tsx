@@ -6,7 +6,7 @@ import { LinkContainer } from 'react-router-bootstrap'
 
 import './Navigation.css'
 import { Brand } from './Brand'
-import { Search } from './Search'
+// import { Search } from './Search'
 import { ThemeType } from '../Theme/Theme'
 import { Home } from '../Pages/Home/Home'
 import { Project1 } from '../Pages/Project1/Project1'
@@ -43,7 +43,7 @@ export class NavigationBar extends React.Component<Props, object> {
               <Nav.Link>Project 2</Nav.Link>
             </LinkContainer>
           </Nav>
-          <Search variant={variant} />
+          {/* <Search variant={variant} /> */}
         </Navbar.Collapse>
       </Navbar>
     )
