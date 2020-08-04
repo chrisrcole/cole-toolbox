@@ -9,8 +9,8 @@ import { Brand } from './Brand'
 // import { Search } from './Search'
 import { ThemeType } from '../Theme/Theme'
 import { Home } from '../Pages/Home/Home'
-import { Project1 } from '../Pages/Project1/Project1'
-import { Project2 } from '../Pages/Project2/Project2'
+import { Python } from '../Pages/Python/Python'
+import { Javascript } from '../Pages/Javascript/Javascript'
 
 export interface Props {
   bg: ThemeType
@@ -36,11 +36,11 @@ export class NavigationBar extends React.Component<Props, object> {
             <LinkContainer to="/">
               <Nav.Link>Home</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/project1">
-              <Nav.Link>Project 1</Nav.Link>
+            <LinkContainer to="/python">
+              <Nav.Link>Python</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/project2">
-              <Nav.Link>Project 2</Nav.Link>
+            <LinkContainer to="/javascript">
+              <Nav.Link>Javascript</Nav.Link>
             </LinkContainer>
           </Nav>
           {/* <Search variant={variant} /> */}
@@ -54,11 +54,11 @@ export class NavigationSwitch extends React.Component {
   render() {
     return (
       <Switch>
-        <Route path="/project1">
-          <Project1 />
+        <Route path="/python">
+          <Python />
         </Route>
-        <Route path="/project2">
-          <Project2 />
+        <Route path="/javascript">
+          <Javascript />
         </Route>
         <Route path="/">
           <Home />

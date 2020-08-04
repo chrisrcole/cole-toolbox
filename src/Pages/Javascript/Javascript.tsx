@@ -1,5 +1,5 @@
 import React from 'react'
 
-export function Project2() {
+export function Javascript() {
   return <h1>Project2</h1>
 }

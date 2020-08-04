@@ -18,17 +18,33 @@ export class ProgressTable extends React.Component {
             <td>1</td>
             <td>
               <ProgressBar>
-                <ProgressBar variant="success" now={15} key={1} />
+                <ProgressBar variant="success" now={100} key={1} />
                 <ProgressBar
                   animated={true}
                   variant="warning"
-                  now={25}
+                  now={0}
                   key={2}
                 />
-                <ProgressBar variant="info" now={60} key={3} />
+                <ProgressBar variant="info" now={0} key={3} />
               </ProgressBar>
             </td>
             <td>Build React Web App</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              <ProgressBar>
+                <ProgressBar variant="success" now={25} key={1} />
+                <ProgressBar
+                  animated={true}
+                  variant="warning"
+                  now={75}
+                  key={2}
+                />
+                <ProgressBar variant="info" now={0} key={3} />
+              </ProgressBar>
+            </td>
+            <td>Problem/Python Setup</td>
           </tr>
         </tbody>
       </Table>
