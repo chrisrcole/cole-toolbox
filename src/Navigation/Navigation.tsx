@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import { Switch, Route } from 'react-router-dom'
+import { LinkContainer } from 'react-router-bootstrap'
 import { Brand } from './Brand'
 import { ThemeType } from '../Theme/Theme'
 import { Home } from '../Pages/Home/Home'
@@ -21,9 +22,15 @@ export class NavigationBar extends React.Component<Props, object> {
       <Navbar bg={bg} variant={variant}>
         <Brand />
         <Nav className="mr-auto">
-          <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/project1">Project 1</Nav.Link>
-          <Nav.Link href="/project2">Project 2</Nav.Link>
+          <LinkContainer to="/">
+            <Nav.Link>Home</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/project1">
+            <Nav.Link>Project 1</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/project2">
+            <Nav.Link>Project 2</Nav.Link>
+          </LinkContainer>
         </Nav>
       </Navbar>
     )
