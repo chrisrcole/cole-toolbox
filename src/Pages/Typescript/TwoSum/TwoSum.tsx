@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import { TwoSumProblem } from './Problem'
 import { TwoSumCode } from './Code'
+import { TwoSumInput } from './Input'
 
 export class TwoSum extends React.Component {
   render() {
@@ -12,10 +13,11 @@ export class TwoSum extends React.Component {
         <Row>
           <Col>
             <TwoSumProblem />
-            <TwoSumCode />
           </Col>
           <Col>
             <TwoSumCode />
+            <br></br>
+            <TwoSumInput />
           </Col>
         </Row>
       </Container>

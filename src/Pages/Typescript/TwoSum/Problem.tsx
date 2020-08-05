@@ -24,7 +24,7 @@ export class TwoSumProblem extends React.Component {
           <Accordion defaultActiveKey="0">
             <Card>
               <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                <Accordion.Toggle as={Button} variant="info" eventKey="0">
                   Example:
                 </Accordion.Toggle>
               </Card.Header>

@@ -34,17 +34,37 @@ export class ProgressTable extends React.Component {
             <td>2</td>
             <td>
               <ProgressBar>
-                <ProgressBar variant="success" now={25} key={1} />
+                <ProgressBar variant="success" now={100} key={1} />
                 <ProgressBar
                   animated={true}
                   variant="warning"
-                  now={75}
+                  now={0}
                   key={2}
                 />
                 <ProgressBar variant="info" now={0} key={3} />
               </ProgressBar>
             </td>
-            <td>Problem/Python Setup</td>
+            <td>Problem/Typescript Setup</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              <ProgressBar>
+                <ProgressBar variant="success" now={100} key={1} />
+                <ProgressBar
+                  animated={true}
+                  variant="warning"
+                  now={0}
+                  key={2}
+                />
+                <ProgressBar variant="info" now={0} key={3} />
+              </ProgressBar>
+            </td>
+            <td>
+              <a href="https://leetcode.com/problems/two-sum" target="blank">
+                Two Sum Problem
+              </a>
+            </td>
           </tr>
         </tbody>
       </Table>

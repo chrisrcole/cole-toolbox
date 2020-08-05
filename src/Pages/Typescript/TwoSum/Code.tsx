@@ -1,22 +1,23 @@
 import React from 'react'
 import Accordion from 'react-bootstrap/Accordion'
-import Jumbotron from 'react-bootstrap/Jumbotron'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import Gist from 'react-gist'
+import './Gist.css'
 
 export class TwoSumCode extends React.Component {
   render() {
     return (
-      <Accordion defaultActiveKey="0">
+      <Accordion>
         <Card>
           <Card.Header>
-            <Accordion.Toggle as={Button} variant="link" eventKey="0">
+            <Accordion.Toggle as={Button} variant="info" eventKey="0">
               My Solution:
             </Accordion.Toggle>
           </Card.Header>
           <Accordion.Collapse eventKey="0">
             <Card.Body>
-              <Jumbotron fluid={true}>Python Code here.</Jumbotron>
+              <Gist id="69dddc9df0457aedb7ce668b2deacd30" file="two_sum.ts" />
             </Card.Body>
           </Accordion.Collapse>
         </Card>
