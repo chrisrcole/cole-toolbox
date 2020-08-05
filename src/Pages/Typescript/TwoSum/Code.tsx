@@ -18,6 +18,7 @@ export class TwoSumCode extends React.Component {
           <Accordion.Collapse eventKey="0">
             <Card.Body>
               <Gist id="69dddc9df0457aedb7ce668b2deacd30" file="two_sum.ts" />
+              <Gist id="69dddc9df0457aedb7ce668b2deacd30" file="two_sum.ts" />
             </Card.Body>
           </Accordion.Collapse>
         </Card>
