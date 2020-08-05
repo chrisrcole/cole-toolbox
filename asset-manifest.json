@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/cole-toolbox/static/css/main.cfebca8d.chunk.css",
-    "main.js": "/cole-toolbox/static/js/main.8f97af9c.chunk.js",
-    "main.js.map": "/cole-toolbox/static/js/main.8f97af9c.chunk.js.map",
+    "main.css": "/cole-toolbox/static/css/main.88d87a3f.chunk.css",
+    "main.js": "/cole-toolbox/static/js/main.9647d91f.chunk.js",
+    "main.js.map": "/cole-toolbox/static/js/main.9647d91f.chunk.js.map",
     "runtime-main.js": "/cole-toolbox/static/js/runtime-main.b0a6dc49.js",
     "runtime-main.js.map": "/cole-toolbox/static/js/runtime-main.b0a6dc49.js.map",
     "static/css/2.af3c1da9.chunk.css": "/cole-toolbox/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.2ed6fcef.chunk.js": "/cole-toolbox/static/js/2.2ed6fcef.chunk.js",
-    "static/js/2.2ed6fcef.chunk.js.map": "/cole-toolbox/static/js/2.2ed6fcef.chunk.js.map",
+    "static/js/2.b9c25bf4.chunk.js": "/cole-toolbox/static/js/2.b9c25bf4.chunk.js",
+    "static/js/2.b9c25bf4.chunk.js.map": "/cole-toolbox/static/js/2.b9c25bf4.chunk.js.map",
     "index.html": "/cole-toolbox/index.html",
-    "precache-manifest.840cacdf8c5723fad73939f7632ce15e.js": "/cole-toolbox/precache-manifest.840cacdf8c5723fad73939f7632ce15e.js",
+    "precache-manifest.f34ccecfc62fb740909a9d85455d35e9.js": "/cole-toolbox/precache-manifest.f34ccecfc62fb740909a9d85455d35e9.js",
     "service-worker.js": "/cole-toolbox/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/cole-toolbox/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.cfebca8d.chunk.css.map": "/cole-toolbox/static/css/main.cfebca8d.chunk.css.map",
-    "static/js/2.2ed6fcef.chunk.js.LICENSE.txt": "/cole-toolbox/static/js/2.2ed6fcef.chunk.js.LICENSE.txt",
+    "static/css/main.88d87a3f.chunk.css.map": "/cole-toolbox/static/css/main.88d87a3f.chunk.css.map",
+    "static/js/2.b9c25bf4.chunk.js.LICENSE.txt": "/cole-toolbox/static/js/2.b9c25bf4.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/cole-toolbox/static/media/logo.967ef51e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b0a6dc49.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.2ed6fcef.chunk.js",
-    "static/css/main.cfebca8d.chunk.css",
-    "static/js/main.8f97af9c.chunk.js"
+    "static/js/2.b9c25bf4.chunk.js",
+    "static/css/main.88d87a3f.chunk.css",
+    "static/js/main.9647d91f.chunk.js"
   ]
 }
