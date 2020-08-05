@@ -17,6 +17,5 @@ test_script:
   # run tests
   - npm test
 
-# Don't actually build.
-publish:
+deploy_script:
   - npm deploy
