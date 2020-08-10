@@ -39,9 +39,9 @@ export class NavigationBar extends React.Component<Props, object> {
             <LinkContainer to="/typescript">
               <Nav.Link>Typescript</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/javascript">
+            {/* <LinkContainer to="/javascript">
               <Nav.Link>Javascript</Nav.Link>
-            </LinkContainer>
+            </LinkContainer> */}
           </Nav>
           {/* <Search variant={variant} /> */}
         </Navbar.Collapse>

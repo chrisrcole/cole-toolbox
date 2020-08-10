@@ -2,7 +2,7 @@ import React from 'react'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import { TwoSum } from './TwoSum/TwoSum'
-
+import { ReverseInteger } from './ReverseInteger/ReverseInteger'
 export class TypescriptTabs extends React.Component {
   render() {
     return (
@@ -10,8 +10,9 @@ export class TypescriptTabs extends React.Component {
         <Tab eventKey="TwoSum" title="Two Sum">
           <TwoSum />
         </Tab>
-        <Tab eventKey="profile" title="Profile"></Tab>
-        <Tab eventKey="contact" title="Contact" disabled={true}></Tab>
+        <Tab eventKey="ReverseInteger" title="ReverseInteger">
+          <ReverseInteger />
+        </Tab>
       </Tabs>
     )
   }
