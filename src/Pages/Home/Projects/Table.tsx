@@ -112,6 +112,29 @@ export class ProgressTable extends React.Component {
               </a>
             </td>
           </tr>
+          <tr>
+            <td>5</td>
+            <td>
+              <ProgressBar>
+                <ProgressBar variant="success" now={100} key={1} />
+                <ProgressBar
+                  animated={true}
+                  variant="warning"
+                  now={0}
+                  key={2}
+                />
+                <ProgressBar variant="info" now={0} key={3} />
+              </ProgressBar>
+            </td>
+            <td>
+              <a
+                href="https://www.hackerrank.com/challenges/counting-valleys/problem"
+                target="blank"
+              >
+                Counting Valleys
+              </a>
+            </td>
+          </tr>
         </tbody>
       </Table>
     )
