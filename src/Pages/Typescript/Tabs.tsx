@@ -3,6 +3,8 @@ import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import { TwoSum } from './TwoSum/TwoSum'
 import { ReverseInteger } from './ReverseInteger/ReverseInteger'
+import { PalindromeNumber } from './PalindromeNumber/PalindromeNumber'
+
 export class TypescriptTabs extends React.Component {
   render() {
     return (
@@ -12,6 +14,9 @@ export class TypescriptTabs extends React.Component {
         </Tab>
         <Tab eventKey="ReverseInteger" title="ReverseInteger">
           <ReverseInteger />
+        </Tab>
+        <Tab eventKey="PalindromeNumber" title="PalindromeNumber">
+          <PalindromeNumber />
         </Tab>
       </Tabs>
     )

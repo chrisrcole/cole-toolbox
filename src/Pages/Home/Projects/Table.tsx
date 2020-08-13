@@ -66,6 +66,52 @@ export class ProgressTable extends React.Component {
               </a>
             </td>
           </tr>
+          <tr>
+            <td>4</td>
+            <td>
+              <ProgressBar>
+                <ProgressBar variant="success" now={100} key={1} />
+                <ProgressBar
+                  animated={true}
+                  variant="warning"
+                  now={0}
+                  key={2}
+                />
+                <ProgressBar variant="info" now={0} key={3} />
+              </ProgressBar>
+            </td>
+            <td>
+              <a
+                href="https://leetcode.com/problems/reverse-integer"
+                target="blank"
+              >
+                Reverse Integer Problem
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>
+              <ProgressBar>
+                <ProgressBar variant="success" now={10} key={1} />
+                <ProgressBar
+                  animated={true}
+                  variant="warning"
+                  now={50}
+                  key={2}
+                />
+                <ProgressBar variant="info" now={40} key={3} />
+              </ProgressBar>
+            </td>
+            <td>
+              <a
+                href="https://leetcode.com/problems/palindrome-number"
+                target="blank"
+              >
+                Palindrome Number
+              </a>
+            </td>
+          </tr>
         </tbody>
       </Table>
     )

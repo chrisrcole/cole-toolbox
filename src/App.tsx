@@ -4,9 +4,6 @@ import { NavigationBar, NavigationSwitch } from './Navigation/Navigation'
 import { theme } from './Theme/Theme'
 import './Theme/Theme.css'
 
-// import ButtonsShowcase from './showcases/Buttons'
-// import ToastsShowcase from './showcases/Toasts'
-
 export function App() {
   return (
     <Router basename="/cole-toolbox">
