@@ -13,7 +13,8 @@ export class Header extends React.Component {
         <div>
           <p>
             This project is setup for me to learn all aspects of development and
-            continually aquire skills.
+            continually aquire skills. This is intended for me to study/practice
+            these problems and reinforce proper algorithm structure.
           </p>
           <p>
             Problems are sourced from{' '}

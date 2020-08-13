@@ -1,11 +1,36 @@
-export function palindromeNumber(numberInput: number): number {
-  const sign = Math.sign(numberInput)
-  const numberArray = Array.from(numberInput.toString())
-  const reversed = parseInt(numberArray.reverse().join('')) * sign
-  console.log(reversed)
-  if (reversed > Math.pow(2, 31) - 1 || reversed < -Math.pow(2, 31)) {
-    return 0
+export function palindromeNumber(x: number): boolean {
+  if (x < 0) {
+    return false
+  }
+
+  const numberArray = Array.from(x.toString())
+  const reversed: number = parseInt(numberArray.reverse().join(''))
+
+  if (reversed === x) {
+    return true
   } else {
-    return reversed
+    return false
   }
 }
+
+// if (x < 0) {
+//   return false
+// }
+
+// if (x < 0 || (x % 10 === 0 && x !== 0)) {
+//   return false
+// }
+
+// let reversed = 0
+
+// while (x > reversed) {
+//   // calc the last digit
+//   const lastDigit = x % 10
+//   // Take the previous last digit, and place it one tens place from the start
+//   reversed = reversed * 10 + lastDigit
+//   x = Math.floor(x / 10)
+// }
+// console.log('x', x)
+// console.log('reversed', reversed)
+// console.log('reversed/10', reversed / 10)
+// return x === reversed || x === Math.floor(reversed / 10)
