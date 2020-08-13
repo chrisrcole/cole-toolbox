@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5da33832d1410333e0969c6605493d76",
+    "revision": "b09b2c63c8d0bd972743780aeea6ae8e",
     "url": "/cole-toolbox/index.html"
   },
   {
-    "revision": "cfe431d52bd3314f8e66",
+    "revision": "87790d8d1b7e2c85c040",
     "url": "/cole-toolbox/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "38c3132483154efe7524",
-    "url": "/cole-toolbox/static/css/main.91aca4ba.chunk.css"
+    "revision": "24d23fd00c7f75576155",
+    "url": "/cole-toolbox/static/css/main.ec122752.chunk.css"
   },
   {
-    "revision": "cfe431d52bd3314f8e66",
-    "url": "/cole-toolbox/static/js/2.43742da9.chunk.js"
+    "revision": "87790d8d1b7e2c85c040",
+    "url": "/cole-toolbox/static/js/2.65086caf.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/cole-toolbox/static/js/2.43742da9.chunk.js.LICENSE.txt"
+    "url": "/cole-toolbox/static/js/2.65086caf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "38c3132483154efe7524",
-    "url": "/cole-toolbox/static/js/main.e5f28571.chunk.js"
+    "revision": "24d23fd00c7f75576155",
+    "url": "/cole-toolbox/static/js/main.4b3b44d2.chunk.js"
   },
   {
     "revision": "b78fd70c07f8ac4c80f5",
